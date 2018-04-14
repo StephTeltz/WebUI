@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style type="text/css">
+	.table
+		{
+			width: 500px;
+			height: 500px;
+		}
+	.body
+		{
+			width: 100%;
+			height: 92.3%;
+			background-color: #4A4A4A;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+		}
+	.tabs
+		{
+			width: 100%;
+			height: 7.7%;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+	.tab
+		{
+			width: 33.3%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+	.listItem
+		{
+			width: 100%;
+			height: 20%;
+			border: 1px solid white;
+		}
+	.active
+		{
+			width: 100%;
+			height: 99.5%;
+			background-color: #484848;
+			display: flex;
+			flex-direction: column;
+			margin: 0;
+			padding: 0;
+		}
+	.inactive
+		{
+			background-color: #2B2B2B;
+			margin: 0;
+			padding: 0;
+			border: 0;
+		}
+	.highlight
+		{
+			width: 100%;
+			height: 10%;
+			background-color: #FBB930;
+			margin: 0;
+			padding: 0;
+		}
+	.tabTitle
+		{
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			margin-bottom: 8px;
+		}
+	.cell
+		{
+			align-self: center !important;
+		}
+	.text
+		{
+			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+			color: white;
+		}
+	.title
+		{
+			font-size: 14pt;
+			align-self: center;
+		}
+	.fieldLabel
+		{
+			font-size: 12pt;
+		}
+	.fieldValue
+		{
+			font-size: 18pt;
+			opacity: 0.7;
+		}
+	.dataTable
+		{
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			padding: 30px;
+		}
+	.cell
+		{
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+	.header
+		{
+			border: 1px solid white;
+		}
+	.dataRow
+		{
+			
+		}
+	</style>
+</head>
+
+<body>
+	<div class="table">
+		<div class="tabs">
+			<div class="tab">
+				<div class="highlight"></div>
+				<div class="active">
+					<div class="tabTitle"><p class="text title">Tab1</p></div>
+				</div>
+			</div>
+			<div class="tab inactive">
+				<div class="tabTitle"><p class="text title">Tab2</p></div>
+			</div>
+			<div class="tab inactive">
+				<div class="tabTitle"><p class="text title">Tab3</p></div>
+			</div>
+		</div>
+		<div class="body">
+			<table class="dataTable">
+				<tr class="header">
+					<th class="text cell">Column 1</th>
+					<th class="text cell">Column 2</th>
+					<th class="text cell">Column 3</th>
+					<th class="text cell">Column 4</th>
+				</tr>
+				<tr class="dataRow">
+					<td class="text cell">Cell</td>
+					<td class="text cell">Cell</td>
+					<td class="text cell">Cell</td>
+					<td class="text cell">Cell</td>
+				</tr>
+				<tr class="dataRow">
+					<td class="text cell">Cell</td>
+					<td class="text cell">Cell</td>
+					<td class="text cell">Cell</td>
+					<td class="text cell">Cell</td>
+				</tr>
+				<tr class="dataRow">
+					<td class="text cell">Cell</td>
+					<td class="text cell">Cell</td>
+					<td class="text cell">Cell</td>
+					<td class="text cell">Cell</td>
+				</tr>
+				<tr class="dataRow">
+					<td class="text cell">Cell</td>
+					<td class="text cell">Cell</td>
+					<td class="text cell">Cell</td>
+					<td class="text cell">Cell</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
